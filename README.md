@@ -5,7 +5,7 @@ An example of how to use google sign in with flutter.
 
 ## Setup
 
-You have to change `app/build.gradle` and put your key for your app.
+You have to [change `app/build.gradle` and put your key for your app](https://github.com/jcavalin/flutter-google-signin-example/blob/master/android/app/build.gradle#L50).
 
 ```
 keytool -genkey -v -keystore ~/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias androiddebugkey
